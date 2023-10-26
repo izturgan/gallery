@@ -1,0 +1,43 @@
+body{
+    background: #eee;
+    max-width: 960px;
+    margin: 20 px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,h3,ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    background: #fff;
+    margin: 20 px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.fav{
+    background: lightblue;
+    color: gray ;
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: block;
+    margin-left: 10%;
+}
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);}
+
